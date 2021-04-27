@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require('uuid');
 
 exports.handler = async (event, context) => {
    
-   const headers = {
+  const headers = {
     "Content-Type": "application/json"
   };
 
